@@ -4,6 +4,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/pro1.png";
 import projImg2 from "../assets/img/pro2.png";
 import projImg3 from "../assets/img/pro3.png";
+import intern from "../assets/img/Screenshot 2024-04-28 171324.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -68,6 +69,10 @@ export const Projects = () => {
                     </Tab.Pane>
                     <Tab.Pane eventKey="section">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="second">
+                      <p>I have successfully completed Data Science Intern at Prodigy InfoTech & Grateful for the hands-on experience and ready to tackle new challenges..</p><br/>
+                      <img src={intern} alt="Intern Certificate"></img>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
