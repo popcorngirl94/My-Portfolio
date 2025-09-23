@@ -509,6 +509,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  height: 200px !important;
+  object-fit: cover !important;
 }
 .proj-imgbx::before {
   content: "";
@@ -531,6 +533,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.5s ease-in-out;
   opacity: 0;
   width: 100%;
+  color: white;
 }
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
