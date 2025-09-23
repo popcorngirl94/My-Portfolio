@@ -22,8 +22,8 @@ export const Education = () => {
         degree: 'Bachelors',
         fieldOfStudy: 'CSIT',
         startYear: '2019',
-        endYear: 'present',
-        description: 'Current average GPA 3.01'
+        endYear: '2024',
+        description: 'Graduated College with a CGPA 77%'
       }
     ];
         const [selectedEducation, setSelectedEducation] = useState(null);

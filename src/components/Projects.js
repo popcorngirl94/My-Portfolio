@@ -13,19 +13,22 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "DigiLock",
-      description: "a digital locker",
+      title: "Legal Dash +",
+      description: "Smart legal software platform",
       imgUrl: projImg1,
+      url: "https://www.legaldashplus.com",
     },
     {
-      title: "Woodley",
-      description: "Furniture Ecommerce App",
+      title: "JUJU Juice",
+      description: "Cold Pressed Juice ",
       imgUrl: projImg2,
+      url: "https://jujuokc.com",
     },
     {
-      title: "Thought Tracker",
-      description: "Emotion Tracker App",
+      title: "Midnight X",
+      description: "A Tech Corporate Website",
       imgUrl: projImg3,
+      url: "https://www.midnightx.io",
     },
    
   ];
