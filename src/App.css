@@ -230,6 +230,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
+.navbar-brand img{
+  width: 200px;
+
+}
 /************ Banner Css ************/
 .banner {
   margin-top: 0;

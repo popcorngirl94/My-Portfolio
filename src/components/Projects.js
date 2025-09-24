@@ -4,6 +4,9 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/pro1.png";
 import projImg2 from "../assets/img/pro2.png";
 import projImg3 from "../assets/img/pro3.png";
+import projImg4 from "../assets/img/pro4.png";
+import projImg5 from "../assets/img/pro5.png";
+import projImg6 from "../assets/img/pro6.png";
 import intern from "../assets/img/Screenshot 2024-04-28 171324.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -25,10 +28,28 @@ export const Projects = () => {
       url: "https://jujuokc.com",
     },
     {
-      title: "Midnight X",
+      title: "Midnight X", 
       description: "A Tech Corporate Website",
       imgUrl: projImg3,
       url: "https://www.midnightx.io",
+    },
+    {
+      title: "Cafe Marpha", 
+      description: "Cozy Coffee Shop",
+      imgUrl: projImg4,
+      url: "https://bibashl14.sg-host.com",
+    },
+    {
+      title: "Dai Nippon Academy", 
+      description: "Japanese Language Institiute",
+      imgUrl: projImg5,
+      url: "https://dainipponacademy.com",
+    },
+    {
+      title: "Kumon Nepal", 
+      description: "Mathematics Learning Program",
+      imgUrl: projImg6,
+      url: "https://kumon.igc.com.np",
     },
    
   ];
